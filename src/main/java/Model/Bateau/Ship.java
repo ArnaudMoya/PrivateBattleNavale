@@ -11,7 +11,7 @@ public class Ship {
     private int taille;
     private Direction direction;
 
-    public Ship(Coordonnes startPosition, int taille, Direction direction){
+    public Ship(Coordonnes Position, int taille, Direction direction){
         this.coordonnes = new ArrayList<Coordonnes>();
         this.coordonnes.add(startPosition);
         this.taille = taille;
